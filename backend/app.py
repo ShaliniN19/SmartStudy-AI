@@ -255,7 +255,7 @@ def health_check():
         "version": "2.0.0",
         "model": model,
         "geminiConfigured": configured,
-        "database": "sqlite",
+        "database": "postgresql",
         "message": (
             "Live Gemini AI Engine is ready."
             if configured
