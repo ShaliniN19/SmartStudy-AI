@@ -1,0 +1,11 @@
+# Backend secrets and environment files
+.env
+.env.*
+!.env.example
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
